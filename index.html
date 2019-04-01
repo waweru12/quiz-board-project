@@ -1,15 +1,16 @@
-OCTYPE html>
+<!DOCTYPE html>
 <html>
 
 <head>
   <meta charset="utf-8">
   <title>QUIZ</title>
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-  <link href="css/quiz.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
   <div class="container">
+      <div class="jumbotron">
     <form id="quiz" name="quiz">
       <div style="text-align: center">
         <h1><strong><u>QUIZ</u></strong></h1>
@@ -77,16 +78,17 @@ OCTYPE html>
      ifInteger(value)
    </label>
  </div></br>
- <div style="text-align: center"><button type="submit">SUBMIT</button></div></br>
+ <div style="text-align: center"><button type="accede">ACCEDE</button></div></br>
      <div id="results">
-       <h2 id="result" style="text-align: center;">YOUR SCORE:NOT YET ATTEMPTED.</h2></br>
+       <h2 id="result" style="text-align: center;"><em>QUIZ NOT YET TRIED</em></h2></br>
      </div>
      <h3 style="text-align: center" id="comment"><u>COMMENTS.</u></h3></br>
      <div style="text-align: center"><a href="index.html"><button type="button">Retake the quiz.</button></div>
    </form>
  </div>
- <script src="js/jquery-3.3.1.js"></script>
+   <script   src="https://code.jquery.com/jquery-3.3.1.min.js"   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous"></script>
  <script src="js/scripts.js"></script>
+ </div>
 </body>
 
 </html>
