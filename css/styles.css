@@ -10,5 +10,7 @@ body {
 .intro{
   color: white;
 }
-
+button{
+  background: yellow;
+  color:black;
 }
