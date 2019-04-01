@@ -20,9 +20,9 @@ The project must have a vscode,atom so that it may be able to work
 
 Behavior                            | Input                     | Output      |
 |-----------------------------------|---------------------------|-------------|
-| The website evaluates the correct |
-| answers placed by user and in     |
-| return gives the results           |
+| The website evaluates the correct |80% answered correctly     |
+| answers placed by user and in     |50% answered correctly     |
+| return gives the results          |Below average 50%          | 
 
 # Contact information
 IG@_w.aweru_
