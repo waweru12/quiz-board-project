@@ -4,5 +4,7 @@ body {
 .jumbotron {
   background-image: url(../images/sunset.jpg);
 }
-.
+.panel {
+  background-color:#FFDEAD
 }
+.
