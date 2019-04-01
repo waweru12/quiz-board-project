@@ -17,13 +17,13 @@ $(document).ready(function () {
     $("#result").text("YOUR SCORE: " + result + " POINTS OUT OF 50");
 
     if (result >= 40) {
-      $("#comment").text("EXCELLENT WORK! KEEP IT UP.")
+      $("#remark").text("EXCELLENT PERFOMANCE!YOU HAVE COMPLETLY PASSED THE TEST.")
     } else if (result >= 25 && result < 40) {
-      $("#comment").text("FAIRLY DONE! GOOD WORK.")
+      $("#remark").text("AVERAGE RESULTS!FAIRLY GOOD.")
     } else if (result < 25) {
-      $("#comment").text("POOR WORK! RETAKE THE TEST.")
+      $("#remark").text("TERRIBLE PERFORMANCE!TRY AGAIN BY RETAKING THE TEST.")
     } else {
-      $("#comment").text("ANSWER EVERY QUESTION PLEASE!")
+      $("#remark").text("ENSURE ALL QUESTIONS ARE ANSWERED!")
     }
   });
 });
